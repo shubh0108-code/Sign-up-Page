@@ -1,0 +1,70 @@
+<html>
+<head>
+<style>
+<title>Signup Page</title>
+.main{
+width:400px;
+margin:100px auto 0px auto;
+padding:25px 30px;
+border-radius:5px;
+}
+h2{
+text-align:center;
+padding:20px;
+color:white;
+font-style:italic;
+}
+.register{
+background-color:black;
+width:150%;
+font-size:18px;
+border-radius:10px;
+border:5px solid black;
+}
+form{
+margin:60px;
+color:white;
+}
+b{
+font-style:italic;
+font-size:18px;
+}
+input{
+width:200px;
+border:1px solid black;
+border-radius:3px;
+padding:7px;
+}
+button{
+background-color:maroon;
+}
+
+</style>
+</head>
+<body style="background-color:pink;display:flex;height:100vh;justify-content:center;align-items:center;padding:10px">
+<div class="main">
+<div class="register">
+<h2>Registration Form</h2>
+<form method="get" action="book.html">
+<b>First Name</b><br> <input type="text" placeholder="Enter your first name" required>
+<br>
+<br>
+<b>Last Name</b> <br> <input type="text" placeholder="Enter your last name" required>
+<br>
+<br>
+<b>Email</b> <br> <input type="email" placeholder="Enter your Email" required>
+<br>
+<br>
+<b>Password</b> <br> <input type="password" placeholder="Enter your Password" required>
+<br>
+<br>
+<b>Retype Password</b> <br> <input type="password" placeholder="Enter your Password again" required>
+<br>
+<br>
+<button onclick="a href="shopping.html"">Submit</button>
+</form>
+</div>
+</div>
+
+</body>
+</html>
